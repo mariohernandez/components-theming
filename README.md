@@ -21,4 +21,6 @@ This is a DDEV-Local-based project.  You need to [Install Docker and DDEV-local]
 
 1. Import a working database: `ddev import-db --src=web/db.sql`
 
-1. Start up Drupal: `ddev drush uli`
+1. Start up Drupal: `ddev drush uli` and click or copy/paste the URL provide by DDEV.
+
+The above steps will give you a working Drupal 9 site with demo content and basic components configuration.  In addition, it provides a working custom theme with automated workflow for building components.
