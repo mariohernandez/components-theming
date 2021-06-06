@@ -1,0 +1,5 @@
+
+messages:
+  css:
+    component:
+      dist/css/messages.css: {}

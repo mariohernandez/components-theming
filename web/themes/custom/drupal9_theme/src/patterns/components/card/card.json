@@ -1,0 +1,16 @@
+{
+  "image": "<img src='https://source.unsplash.com/vTL_qy03D1I/380x280' alt='Card image' />",
+  "date": "September 27, 2021",
+  "heading": {
+    "heading_level": 2,
+    "modifier": "card__title",
+    "title": "Learn the latest on how to develop drupal sites with components",
+    "url": "#"
+  },
+  "body": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
+  "cta": {
+    "modifier": "button--link",
+    "text": "Read the full article",
+    "url": "#"
+  }
+}

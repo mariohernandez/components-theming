@@ -1,0 +1,55 @@
+# These lines define the drupal9_theme/global library.
+global:
+  css:
+    # The SMACSS category, "base", is loaded before other categories. Drupal 8
+    # loads stylesheets based on the SMACSS ordering of:
+    # base, layout, component, state, theme
+    base:
+      dist/css/global.css: {}
+
+# Example external library.
+# webfonts:
+#   version: 1.x
+#   js:
+#     https://fast.fonts.net/example.js: { type: external, attributes: { async: true }}
+
+# Attach each library by using attach_library() within the components twig template.
+# More info: https://www.drupal.org/node/2456753
+
+# Example component library.
+# site-logo:
+#   css:
+#     component:
+#       dist/css/site-logo.css: {}
+#   # If this library had JavaScript you could specify it like this:
+#   js:
+#     js/script.js: {}
+#   # If this library had dependencies on other libraries, you could specify it like this:
+#   dependencies:
+#     - drupal9_theme/clearfix
+#     - drupal9_theme/visually-hidden
+
+button:
+  css:
+    components:
+      dist/css/button.css: {}
+
+card:
+  css:
+    components:
+      dist/css/card.css: {}
+
+eyebrow:
+  css:
+    components:
+      dist/css/eyebrow.css: {}
+
+heading:
+  css:
+    components:
+      dist/css/heading.css: {}
+
+webfonts:
+  css:
+    base:
+      'https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,100,400;0,700;1,400;1,700;1,900&display=swap': { type: external, minified: true }

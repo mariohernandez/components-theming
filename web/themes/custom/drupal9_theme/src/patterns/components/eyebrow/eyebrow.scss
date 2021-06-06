@@ -1,0 +1,11 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.eyebrow {
+  color: $color-gray-dark;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.12rem;
+  line-height: 1;
+  text-transform: uppercase;
+}

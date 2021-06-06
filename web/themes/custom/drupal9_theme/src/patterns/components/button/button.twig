@@ -1,0 +1,12 @@
+{{ attach_library('drupal_9_theme/button') }}
+
+{# Presence of a url in the passed button object determines type of  #}
+{% if button.url %}
+  <a href="{{ button.url }}" class="button{{ button.modifier ? ' ' ~ button.modifier }}">
+    {{ button.text }}
+  </a>
+{% else %}
+  <button class="button{{ button.modifier ? ' ' ~ button.modifier }}" {{ button.modifier == 'is-disabled' ? ' disabled' }}>
+    {{ button.text }}
+  </button>
+{% endif %}

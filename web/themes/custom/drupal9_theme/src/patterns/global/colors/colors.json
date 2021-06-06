@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "Brand": [
+      {
+        "name": "$color-primary",
+        "hex": "#EC5f67"
+      },
+      {
+        "name": "$color-secondary",
+        "hex": "#F99157"
+      }
+    ],
+    "Accent Colors": [
+      {
+        "name": "$color-mango",
+        "hex": "#FAC863"
+      },
+      {
+        "name": "$color-de-york",
+        "hex": "#99C794"
+      },
+      {
+        "name": "$color-tradewind",
+        "hex": "#5FB3B3"
+      },
+      {
+        "name": "$color-primary",
+        "hex": "#6699CC"
+      }
+    ],
+    "Black &amp; White": [
+      {
+        "name": "$color-black",
+        "hex": "#1B2B34"
+      },
+      {
+        "name": "$color-white",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "Grays": [
+      {
+        "name": "$color-gray-dk",
+        "hex": "#343D46"
+      },
+      {
+        "name": "$color-gray-mid",
+        "hex": "#4F5B66"
+      },
+      {
+        "name": "$color-gray-lt",
+        "hex": "#65737E"
+      },
+      {
+        "name": "$color-gray-lighter",
+        "hex": "#A7ADBA"
+      }
+    ]
+  }
+}

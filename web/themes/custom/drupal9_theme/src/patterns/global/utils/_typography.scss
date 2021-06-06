@@ -1,0 +1,122 @@
+// Typography
+//
+// Typography variables.
+
+$font-arial: 'Arial', serif;
+$font-roboto: 'Roboto', sans-serif;
+
+@mixin font-stack-primary {
+  font-family: $font-arial;
+}
+
+@mixin font-stack-secondary {
+  font-family: $font-roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include font-stack-secondary;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+// Heading mixins.
+@mixin heading1 {
+  font-size: 3rem; // 30px
+
+  @include breakpoint($bp-sm) {
+    font-size: 4rem; // 40px
+  }
+
+  @include breakpoint($bp-sm) {
+    font-size: 4.5rem; // 45px
+  }
+}
+
+@mixin heading2 {
+  font-size: 2rem; // 20px
+
+  @include breakpoint($bp-sm) {
+    font-size: 3rem; // 30px
+  }
+
+  @include breakpoint($bp-sm) {
+    font-size: 3.5rem; // 35px
+  }
+}
+
+@mixin heading3 {
+  font-size: 2rem; // 20px
+
+  @include breakpoint($bp-sm) {
+    font-size: 2.5rem; // 25px
+  }
+
+  @include breakpoint($bp-sm) {
+    font-size: 3rem; // 30px
+  }
+}
+
+@mixin heading4 {
+  font-size: 1.8rem; // 18px
+
+  @include breakpoint($bp-sm) {
+    font-size: 2rem; // 20px
+  }
+
+  @include breakpoint($bp-sm) {
+    font-size: 2.5rem; // 2.5px
+  }
+}
+
+@mixin heading5 {
+  font-size: 1.6rem; // 16px
+
+  @include breakpoint($bp-sm) {
+    font-size: 1.8rem; // 18px
+  }
+
+  @include breakpoint($bp-sm) {
+    font-size: 2rem; // 20px
+  }
+}
+
+@mixin heading6 {
+  font-size: 1.4rem; // 14px
+
+  @include breakpoint($bp-sm) {
+    font-size: 1.6rem; // 16px
+  }
+
+  @include breakpoint($bp-sm) {
+    font-size: 1.8rem; // 18px
+  }
+}
+
+h1 {
+  @include heading1;
+}
+
+h2 {
+  @include heading2;
+}
+
+h3 {
+  @include heading3;
+}
+
+h4 {
+  @include heading4;
+}
+
+h5 {
+  @include heading5;
+}
+
+h6 {
+  @include heading6;
+}

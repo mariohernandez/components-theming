@@ -1,0 +1,74 @@
+{
+  "heading": {
+    "heading_level": 2,
+    "modifier": "card-collection__heading",
+    "title": "Latest Articles",
+    "url": ""
+  },
+  "items": [
+    {
+      "image": "<img src='https://source.unsplash.com/vTL_qy03D1I/380x280' alt='Card image' />",
+      "date": "September 27, 2021",
+      "card_title": {
+        "heading_level": 3,
+        "modifier": "card__title",
+        "title": "Learn the latest on how to develop drupal sites with components",
+        "url": "#"
+      },
+      "body": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
+      "cta": {
+        "modifier": "button--link",
+        "text": "Read the full article",
+        "url": "#"
+      }
+    },
+    {
+      "image": "<img src='https://source.unsplash.com/nYgy58eb9aw/380x280' alt='Card image' />",
+      "date": "September 27, 2021",
+      "card_title": {
+        "heading_level": 3,
+        "modifier": "card__title",
+        "title": "Learn the latest on how to develop drupal sites with components",
+        "url": "#"
+      },
+      "body": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
+      "cta": {
+        "modifier": "button--link",
+        "text": "Read the full article",
+        "url": "#"
+      }
+    },
+    {
+      "image": "<img src='https://source.unsplash.com/TyQ-0lPp6e4/380x280' alt='Card image' />",
+      "date": "September 27, 2021",
+      "card_title": {
+        "heading_level": 3,
+        "modifier": "card__title",
+        "title": "Learn the latest on how to develop drupal sites with components",
+        "url": "#"
+      },
+      "body": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
+      "cta": {
+        "modifier": "button--link",
+        "text": "Read the full article",
+        "url": "#"
+      }
+    },
+    {
+      "image": "<img src='https://source.unsplash.com/_KaMTEmJnxY/380x280' alt='Card image' />",
+      "date": "September 27, 2021",
+      "card_title": {
+        "heading_level": 3,
+        "modifier": "card__title",
+        "title": "Learn the latest on how to develop drupal sites with components",
+        "url": "#"
+      },
+      "body": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
+      "cta": {
+        "modifier": "button--link",
+        "text": "Read the full article",
+        "url": "#"
+      }
+    }
+  ]
+}

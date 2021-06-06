@@ -1,0 +1,43 @@
+@import '../../global/utils/init';
+
+.card {
+  border: 1px solid $color-gray-lighter;
+  border-radius: 0.4rem;
+  max-width: 36rem; // 360px
+}
+
+.card__content {
+  padding: 2rem; // 20px
+}
+
+.card__date {
+  margin-bottom: 1.4rem;
+  margin-top: 0;
+}
+
+.card__body {
+  line-height: 1.5;
+}
+
+.card__image {
+  overflow: hidden;
+  position: relative;
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 2rem solid $color-white;
+    border-right: 39rem solid transparent; // 390px
+  }
+}

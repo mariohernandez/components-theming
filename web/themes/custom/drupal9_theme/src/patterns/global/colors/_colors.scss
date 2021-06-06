@@ -1,0 +1,30 @@
+// Colors.
+//
+// All Sass color variables prefixed with $color-.
+// This makes it easy to figure out what a variable
+// is for later.
+//
+// If you need help naming colors check out:
+// http://chir.ag/projects/name-that-color/
+
+
+// Brand.
+$color-mahogany: #ce3e3e;
+$color-tan: #f99157;
+
+$color-primary: $color-mahogany;
+$color-secondary: $color-tan;
+
+// Accents
+$color-mango: #fac863;
+$color-de-york: #99c794;
+
+// Standard.
+$color-white: #fff;
+$color-black: #212121;
+
+// Grays.
+$color-gray-dark: #343d46;
+$color-gray-medium: #4f5b66;
+$color-gray-light: #65737e;
+$color-gray-lighter: #a7adba;

@@ -1,0 +1,7 @@
+{
+  "button": {
+    "text": "I am a regular link",
+    "modifier": "button--link",
+    "url": "#"
+  }
+}

@@ -1,0 +1,29 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.button:not(.button--link) {
+  @include font-stack-secondary;
+  background-color: $color-primary;
+  border: 0;
+  border-radius: 2px;
+  color: $color-white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color $transition, color $transition;
+
+  &:hover,
+  &:active {
+    background-color: darken($color-primary, 15%);
+  }
+
+  &.button--link {
+    color: $color-primary;
+    text-decoration: underline;
+  }
+}

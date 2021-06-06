@@ -1,0 +1,19 @@
+@import '../../global/utils/init';
+
+.card-collection__heading {
+  @include heading1;
+  text-align: center;
+}
+
+.card-collection__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card-collection__item {
+  list-style-type: none;
+  margin: 0 1.5rem 3rem;
+}
