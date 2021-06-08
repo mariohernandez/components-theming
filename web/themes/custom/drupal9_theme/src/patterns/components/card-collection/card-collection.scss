@@ -1,19 +1,27 @@
 @import '../../global/utils/init';
 
-.card-collection__heading {
-  @include heading1;
-  text-align: center;
+.card-collection {
+  margin: 0 auto;
+  max-width: 1560px;
 }
 
 .card-collection__items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+
+  @include breakpoint($bp-lg) {
+    justify-content: flex-start;
+  }
+
+  .card {
+    margin: 0 1.5rem 3rem;
+  }
 }
 
-.card-collection__item {
-  list-style-type: none;
-  margin: 0 1.5rem 3rem;
+.card-collection__heading {
+  @include heading1;
+  text-align: center;
 }

@@ -39,6 +39,11 @@ card:
     components:
       dist/css/card.css: {}
 
+card-collection:
+  css:
+    components:
+      dist/css/card-collection.css: {}
+
 eyebrow:
   css:
     components:

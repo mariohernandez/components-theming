@@ -1,0 +1,17 @@
+{# Looping through cards array in `src/styleguide/data/cards.json`.
+This mimics the list of items created by a view usually displayed
+using `views--unformatted--xxxx.html.twig. Or, a paragraph type that allows for curated list of content. #}
+{% block cards_list %}
+  {% for item in items %}
+    {%
+      include '@drupal9_theme/card/card.twig' with {
+        "image": item.image,
+        "heading": item.heading,
+        "date": item.date,
+        "body": item.body,
+        "cta": item.cta,
+        "modifier": item.modifier,
+      } only
+    %}
+  {% endfor %}
+{% endblock %}

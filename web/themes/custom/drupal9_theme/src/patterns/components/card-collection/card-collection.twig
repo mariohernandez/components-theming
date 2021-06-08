@@ -1,22 +1,23 @@
 {{ attach_library('drupal9_theme/card-collection')}}
 
-<section class="card-collection
-  {{- attributes ? attributes.class -}}"
+{# This is the equivalent of a view wrapper teamplate which includes the
+items in the view's query as well as the view's title (if available).
+This is an equivalent of `views-view--xxxx.html.twig`. #}
+<section class="card-collection{{ modifier ? ' ' ~ modifier }}
+  {{- attributes ? ' ' ~ attributes.class -}}"
   {{- attributes ? attributes|without(class) -}}>
-  {% include '@drupal9_theme/heading/heading.twig' %}
 
-  <ul class="card-collection__items">
-    {% for item in items %}
-      <li class="card-collection__item">
-        {% include '@drupal9_theme/card/card.twig' with {
-            "image": item.image,
-            "date": item.date,
-            "heading": item.card_title,
-            "body": item.body,
-            "cta": item.cta,
-          } only
-        %}
-      </li>
-    {% endfor %}
-  </ul>
+  {% if heading %}
+    <header class="card-collection__header">
+      {{ title_prefix }}
+        {% include '@drupal9_theme/heading/heading.twig' %}
+      {{ title_suffix }}
+    </header>
+  {% endif %}
+
+  <div class="card-collection__items">
+    {% block cards_collection %}
+      {% include '@drupal9_theme/card-collection/card-collection-items.twig' %}
+    {% endblock %}
+  </div>
 </section>
