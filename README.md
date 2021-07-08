@@ -24,3 +24,12 @@ This is a DDEV-Local-based project.  You need to [Install Docker and DDEV-local]
 1. Start up Drupal: `ddev drush uli` and click or copy/paste the URL provide by DDEV.
 
 The above steps will give you a working Drupal 9 site with demo content and basic components configuration.  In addition, it provides a working custom theme with automated workflow for building components.
+
+## Working with the theme
+
+1. Navigate to the theme's directory: `cd web/themes/custom/drupal9_theme`
+1. Run `nvm install`
+1. Run `nvm use`
+1. Run `npm install`
+1. Run `npm run build`
+1. Run `npm run watch` (while working on building components)
